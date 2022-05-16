@@ -1,0 +1,41 @@
+header,
+body {
+  margin-top: 100px; /* Margen hacia arriba*/
+  color: #000f47; /* Color de la letra*/
+}
+table,
+h2 {
+  margin-top: 50px;
+  color: #000f47;
+}
+
+
+a {
+  text-decoration: none; /*Para quitarle el underline a los enlaces*/
+}
+h1,
+h2 {
+  text-align: center; /*alienación del texto*/
+  color: #000f47;
+}
+
+nav {
+  background-color: #000f47; /*Color de fondo*/
+}
+nav a.active {
+  /*Para cuando el mouse se acerca al nav cambie de color*/
+  background-color: #00377d;
+  font-size: 25px;
+}
+nav a:hover {
+  /*Para cuando el mouse se aleja al nav cambie de color*/
+  /*Pseudoclase*/
+  background-color: #00c8ff;
+  text-decoration: none;
+}
+
+button {
+  /*Color de botones del nav*/
+  background-color: #00c8ff;
+}
+
