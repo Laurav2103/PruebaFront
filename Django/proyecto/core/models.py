@@ -8,11 +8,7 @@ from django.db import models
 from django.http import HttpResponse
 from import_export import resources
 from sqlalchemy import true
-from collections import Iterable
-import spacy
-import nltk
-from nltk import SnowballStemmer
-import unicodedata
+
 
 # Create your models here.
 
