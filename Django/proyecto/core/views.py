@@ -1,10 +1,6 @@
 from zlib import DEF_BUF_SIZE
-import spacy
-import nltk
-from nltk import SnowballStemmer
 import unicodedata
 import requests
-from bs4 import BeautifulSoup
 from django.db.models import Q
 from .forms import ArticleForm
 from .models import cliente
